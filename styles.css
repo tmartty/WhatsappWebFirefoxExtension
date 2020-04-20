@@ -3,23 +3,17 @@ html {
 }
 
 span[data-icon="status-dblcheck"] svg,
-span[data-icon="msg-dblcheck"] svg,
-span[data-icon="status-dblcheck-ack"] svg,
-span[data-icon="msg-dblcheck-ack"] svg {
+span[data-icon="msg-dblcheck"] svg {
     background: var(--light-blue);
     border-radius: 100%;
 }
-span[data-icon="status-dblcheck"] svg,
-span[data-icon="status-dblcheck-ack"] svg {
+span[data-icon="status-dblcheck"] svg {
     width: 14px;
     height: 14px;
     margin-top: 2px;
-    color: var(--light-blue);
 }
-span[data-icon="msg-dblcheck"] svg,
-span[data-icon="msg-dblcheck-ack"] svg {
+span[data-icon="msg-dblcheck"] svg {
     width: 10px;
     height: 10px;
     margin-top: 3px;
-    color: var(--light-blue);
 }
